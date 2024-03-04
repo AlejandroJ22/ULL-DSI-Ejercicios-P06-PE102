@@ -1,0 +1,33 @@
+{
+  "name": "practica-6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/ejercicio-2/facturacion_basica.ts",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls && rm -rf .nyc_output",
+    "start": "tsc-watch --onSuccess \"node dist/ejercicio-2/facturacion_basica.js\"",
+    "doc": "typedoc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.11",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.11.24",
+    "chai": "^4.4.1",
+    "coveralls": "^3.1.1",
+    "eslint-config-prettier": "^9.1.0",
+    "mocha": "^10.3.0",
+    "nyc": "^15.1.0",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "tsc-watch": "^6.0.4",
+    "typedoc": "^0.25.8",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}

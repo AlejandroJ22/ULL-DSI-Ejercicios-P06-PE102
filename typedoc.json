@@ -1,0 +1,17 @@
+{
+    "entryPoints": [
+        "./src/ejercicio-1/mudanza.ts",
+        "./src/ejercicio-1/ejemplo.ts",
+        "./src/ejercicio-2/facturacion-basica.ts",
+        "./src/ejercicio-2/facturacion-descuento.ts",
+        "./src/ejercicio-2/ejemplo.ts",
+        "./src/ejercicio-3/gestor-ficheros.ts",
+        "./src/ejercicio-3/ejemplo.ts",
+        "./src/ejercicio-4/impresoras-escaneres.ts",
+        "./src/ejercicio-4/ejemplo.ts",
+        "./src/ejercicio-5/servicio-mensajeria.ts",
+        "./src/ejercicio-5/ejemplo.ts",
+        "./src/ejercicios-pe/ejercicio.ts"
+    ],
+    "out": "./docs"
+}
